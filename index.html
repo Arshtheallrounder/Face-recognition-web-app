@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Face Recognition App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Face Recognition App</h1>
+            <h2>The model is trained to identify:</h2>
+            <b id="names">My Father(Purna Shrestha)<hr>My Mother(Poonam Shrestha)<hr>Me(Arsh Shrestha)<hr></b>
+            <h3 id="webcam_view">Webcam View</h3>
+            <div id="Webcam"></div>
+            <br>
+            <br>
+            <div id="result"></div>
+            <br>
+            <br>
+            <button id="capture" class="btn btn-info" onclick="take_snapshot();">Capture Image</button>
+            <button id="check" class="btn btn-sucess" onclick="check();">Check</button>
+            <h5>Object <span id="object"></span></h5>
+            <h6>Accuracy <span id="accuracy"></span></h6>
+            <script src="main.js"></script>
+        </center>
+    </body>
+</html>
